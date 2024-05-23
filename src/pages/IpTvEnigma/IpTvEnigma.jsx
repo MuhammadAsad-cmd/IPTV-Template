@@ -1,0 +1,16 @@
+import React from "react";
+import IpTvEnigmaPage from "../../Components/IpTvEnigmaPage/IpTvEnigmaPage";
+import HeaderOne from "../../Components/Temp1/HeaderOne/HeaderOne";
+import FooterTemp1 from "../../Components/Temp1/FooterTemp1/FooterTemp1";
+
+const IpTvEnigma = () => {
+  return (
+    <>
+      <HeaderOne />
+      <IpTvEnigmaPage />
+      <FooterTemp1 />
+    </>
+  );
+};
+
+export default IpTvEnigma;
